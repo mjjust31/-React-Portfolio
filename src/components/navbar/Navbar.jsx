@@ -9,18 +9,24 @@ function Navbar() {
         className="custom-navbar"
         justify
         variant="tabs"
-        defaultActiveKey="/home">
+        defaultActiveKey="/">
         <Nav.Item>
-          <Nav.Link href="/home">About Me</Nav.Link>
+          <Nav.Link href="/">About Me</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-1">Portfolio</Nav.Link>
+          <Nav.Link href="/portfolio" eventKey="link-1">
+            Portfolio
+          </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-2">Contact</Nav.Link>
+          <Nav.Link href="/contact-me" eventKey="link-2">
+            Contact
+          </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link=3">Resume</Nav.Link>
+          <Nav.Link href="/resume" eventKey="link=3">
+            Resume
+          </Nav.Link>
         </Nav.Item>
       </Nav>
     </>
