@@ -14,17 +14,17 @@ function Navbar() {
           <Nav.Link href="/">About Me</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/portfolio" eventKey="link-1">
+          <Nav.Link href="/portfolio" eventKey="portfolio">
             Portfolio
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/contact-me" eventKey="link-2">
+          <Nav.Link href="/contact-me" eventKey="contact-me">
             Contact
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/resume" eventKey="link=3">
+          <Nav.Link href="/resume" eventKey="resume">
             Resume
           </Nav.Link>
         </Nav.Item>

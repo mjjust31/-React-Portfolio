@@ -3,6 +3,13 @@
   left: 0;
   bottom: 0;
   right: 0;
-  color: white; 
+  color: white;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.custom-footer a {
+  font-size: 40px;
+  margin: 0px 0px 9px;
 }

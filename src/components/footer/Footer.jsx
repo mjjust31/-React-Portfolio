@@ -1,9 +1,26 @@
 import "./Footer.scss";
+import {
+  GithubOutlined,
+  LinkedinOutlined,
+  MailOutlined,
+  PhoneOutlined,
+} from "@ant-design/icons";
 
 function Footer() {
   return (
     <div className="custom-footer">
-      <h1>This will be the footer</h1>
+      <a>
+        <GithubOutlined />
+      </a>
+      <a>
+        <LinkedinOutlined />
+      </a>
+      <a>
+        <MailOutlined />
+      </a>
+      <a>
+        <PhoneOutlined />
+      </a>
     </div>
   );
 }
