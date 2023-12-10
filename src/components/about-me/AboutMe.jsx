@@ -1,13 +1,19 @@
 import "./AboutMe.scss";
 import Accordion from "react-bootstrap/Accordion";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import Image from "react-bootstrap/Image";
+import Row from "react-bootstrap/Row";
 
 function AboutMe() {
   return (
     <>
       <section className="custom-container">
-        <div className="about-me">
-          <img src="/images/Proifile.png" alt="Jessica Justmann" />
-          <Accordion>
+        <section className="about-me">
+          <Col xs={6} md={4}>
+            <img src="/images/Proifile.png" thumbnail alt="Jessica Justmann" />
+          </Col>
+          <Accordion className="custom-accordion">
             <Accordion.Item eventKey="0">
               <Accordion.Header>Bio</Accordion.Header>
               <Accordion.Body>
@@ -53,7 +59,7 @@ function AboutMe() {
               <Accordion.Body></Accordion.Body>
             </Accordion.Item>
           </Accordion>
-        </div>
+        </section>
       </section>
     </>
   );

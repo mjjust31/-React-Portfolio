@@ -1,0 +1,20 @@
+.custom-carousel {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.custom-carousel img {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  filter: grayscale(70%);
+
+}
+
+.carousel-background {
+  background-color: black;
+  border-radius: 50px;
+}

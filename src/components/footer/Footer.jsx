@@ -9,16 +9,16 @@ import {
 function Footer() {
   return (
     <div className="custom-footer">
-      <a>
+      <a href="https://github.com/mjjust31">
         <GithubOutlined />
       </a>
-      <a>
+      <a href="https://www.linkedin.com/in/jessica-justmann31">
         <LinkedinOutlined />
       </a>
       <a>
         <MailOutlined />
       </a>
-      <a>
+      <a href="tel:17736808837 ">
         <PhoneOutlined />
       </a>
     </div>
