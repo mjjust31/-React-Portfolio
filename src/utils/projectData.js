@@ -1,4 +1,4 @@
-projectData = [
+export const productData = [
   {
     id: "1",
     filepath: "src/components/portfolio/images/Project1.png",
@@ -50,4 +50,3 @@ projectData = [
   },
 ];
 
-module.exports = projectData;
