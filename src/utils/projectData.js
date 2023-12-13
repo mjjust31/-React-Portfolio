@@ -6,6 +6,7 @@ export const productData = [
     title: "Movies, Mocktails, and Martinis",
     description:
       "Group project and learning to fetch and display data from an API",
+    link: " https://mocktails-and-movie.github.io/Mocktails-and-Movies/",
   },
 
   {
@@ -14,6 +15,7 @@ export const productData = [
     alt: "Code Quiz Challenge screenshot",
     title: "Code Quiz Challenge",
     description: "Beginning to learn Javascript",
+    link: "https://mjjust31.github.io/Code-Quiz/",
   },
 
   {
@@ -23,6 +25,7 @@ export const productData = [
     title: "The Escape Room",
     description:
       "A game build by a group in our bootcamp. Learning backend databases and displaying on the frontend",
+    link: "https://the-escape-room-b6b7539c84ae.herokuapp.com/",
   },
 
   {
@@ -31,6 +34,7 @@ export const productData = [
     alt: "Weather Dashboard",
     title: "Weather Dashboard",
     description: "Find the weather for a city using OpenWeather API ",
+    link: " https://mjjust31.github.io/Weather-Dashboard/",
   },
 
   {
@@ -39,6 +43,7 @@ export const productData = [
     alt: "Backend SVG Logo Maker",
     title: "SVG Logo Maker",
     description: "Learning backend",
+    link: "https://drive.google.com/file/d/1EyNjbzDt_V7ulw4pqdYzoo6_iNbU2I8f/view",
   },
 
   {
@@ -47,6 +52,6 @@ export const productData = [
     alt: "MongoDB",
     title: "MongoDB",
     description: "Learning backend application using MongoDB",
+    link: " https://drive.google.com/file/d/1HvzVKwwUQYknLUlHwkRRgKZHpNgfvc0l/view",
   },
 ];
-

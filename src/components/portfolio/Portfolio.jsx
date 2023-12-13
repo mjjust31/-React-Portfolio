@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./Portfolio.scss";
-import Project1 from "/src/components/portfolio/images/Project1.png";
+// import Project1 from "/src/components/portfolio/images/Project1.png";
 import { productData } from "../../utils/projectData";
 
 function Portfolio() {
@@ -16,7 +16,9 @@ function Portfolio() {
     <Carousel.Item key={item.id} className="project-display">
       <img src={item.filepath} alt={item.alt} />
       <Carousel.Caption className="carousel-background">
-        <a>{item.title}</a>
+        <a href={item.link} target="_blank">
+          {item.title}
+        </a>
         <p>{item.description}</p>
       </Carousel.Caption>
     </Carousel.Item>

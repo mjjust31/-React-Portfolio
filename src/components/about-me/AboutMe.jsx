@@ -11,7 +11,7 @@ function AboutMe() {
       <section className="custom-container">
         <section className="about-me">
           <Col xs={6} md={4}>
-            <img src="/images/Proifile.png" thumbnail alt="Jessica Justmann" />
+            <img src="/images/Proifile.png" thumbnail='true' alt="Jessica Justmann" />
           </Col>
           <Accordion className="custom-accordion">
             <Accordion.Item eventKey="0">

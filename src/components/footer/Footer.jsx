@@ -9,10 +9,10 @@ import {
 function Footer() {
   return (
     <div className="custom-footer">
-      <a href="https://github.com/mjjust31">
+      <a href="https://github.com/mjjust31" target="_blank">
         <GithubOutlined />
       </a>
-      <a href="https://www.linkedin.com/in/jessica-justmann31">
+      <a href="https://www.linkedin.com/in/jessica-justmann31" target="_blank">
         <LinkedinOutlined />
       </a>
       <a>
