@@ -53,3 +53,9 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+
+Links: 
+1) https://stackoverflow.com/questions/60922523/how-to-make-a-pdf-download-on-a-button-click-with-react
+2) Using emailjs: https://www.emailjs.com/docs/examples/reactjs/
+3) Youtube Video on using emailjs for basic guidance: https://www.youtube.com/watch?v=NgWGllOjkbs
+
