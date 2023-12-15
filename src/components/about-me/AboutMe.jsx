@@ -54,10 +54,6 @@ function AboutMe() {
                 </p>
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="1">
-              <Accordion.Header>How you can contact me</Accordion.Header>
-              <Accordion.Body></Accordion.Body>
-            </Accordion.Item>
           </Accordion>
         </section>
       </section>
