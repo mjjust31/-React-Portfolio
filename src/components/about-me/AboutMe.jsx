@@ -8,7 +8,7 @@ import Row from "react-bootstrap/Row";
 function AboutMe() {
   return (
     <>
-      <section className="custom-container">
+      <section className="bio-container">
         <section className="about-me">
           <Col xs={6} md={4}>
             <img src="/images/Proifile.png" thumbnail='true' alt="Jessica Justmann" />

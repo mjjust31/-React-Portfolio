@@ -2,7 +2,7 @@ import "./Footer.scss";
 import {
   GithubOutlined,
   LinkedinOutlined,
-  MailOutlined,
+  // MailOutlined,
   PhoneOutlined,
 } from "@ant-design/icons";
 
@@ -14,9 +14,6 @@ function Footer() {
       </a>
       <a href="https://www.linkedin.com/in/jessica-justmann31" target="_blank">
         <LinkedinOutlined />
-      </a>
-      <a>
-        <MailOutlined />
       </a>
       <a href="tel:17736808837 ">
         <PhoneOutlined />

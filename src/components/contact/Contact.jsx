@@ -36,53 +36,63 @@ function Contact() {
   };
 
   return (
-    <div className="custom-container container">
-      {!isSubmitted ? (
-        <Form ref={form} onSubmit={sendEmail}>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Label>Name</Form.Label>
-            <Form.Control name="full-name" type="text" placeholder="Jane Doe" />
-          </Form.Group>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Label>Email address</Form.Label>
-            <Form.Control
-              name="email"
-              type="email"
-              placeholder="name@example.com"
-            />
-          </Form.Group>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-            <Form.Label>Message</Form.Label>
-            <Form.Control
-              name="message"
-              as="textarea"
-              rows={3}
-              placeholder="write your message here"
-            />
-          </Form.Group>
-          <Button variant="primary" type="submit">
-            Submit your message
-          </Button>
-        </Form>
-      ) : (
-        <Modal show={isSubmitted} onHide={closeModal}>
-          <Modal.Header closeButton>
-            <Modal.Title style={{ color: "black" }}>Success!</Modal.Title>
-          </Modal.Header>
-          <Modal.Body style={{ color: "black" }}>
-            Your message has been successfully submitted!
-          </Modal.Body>
-          <Modal.Footer>
-            <Button
-              style={{ color: "black" }}
-              variant="secondary"
-              onClick={closeModal}>
-              Close
+    <>
+      <h3 className="title">Send me a message! This form is attached to my email using emailjs</h3>
+      <div className="custom-container container">
+        {!isSubmitted ? (
+          <Form ref={form} onSubmit={sendEmail}>
+            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+              <Form.Label>Name</Form.Label>
+              <Form.Control
+                name="full-name"
+                type="text"
+                placeholder="Jane Doe"
+              />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+              <Form.Label>Email address</Form.Label>
+              <Form.Control
+                name="email"
+                type="email"
+                placeholder="name@example.com"
+                np
+              />
+            </Form.Group>
+            <Form.Group
+              className="mb-3"
+              controlId="exampleForm.ControlTextarea1">
+              <Form.Label>Message</Form.Label>
+              <Form.Control
+                name="message"
+                as="textarea"
+                rows={3}
+                placeholder="write your message here"
+              />
+            </Form.Group>
+            <Button variant="primary" type="submit">
+              Submit your message
             </Button>
-          </Modal.Footer>
-        </Modal>
-      )}
-    </div>
+          </Form>
+        ) : (
+          <Modal show={isSubmitted} onHide={closeModal}>
+            <Modal.Header closeButton>
+              <Modal.Title style={{ color: "black" }}>Success!</Modal.Title>
+            </Modal.Header>
+            <Modal.Body style={{ color: "black" }}>
+              Your message has been successfully submitted!
+            </Modal.Body>
+            <Modal.Footer>
+              <Button
+                style={{ color: "black" }}
+                variant="secondary"
+                onClick={closeModal}>
+                Close
+              </Button>
+            </Modal.Footer>
+          </Modal>
+        )}
+      </div>
+    </>
   );
 }
 

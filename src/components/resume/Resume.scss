@@ -1,1 +1,14 @@
+.resume-button {
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+}
 
+.resume-button {
+  padding: 10px 25px;
+  border-radius: 30px;
+  a {
+    text-decoration: none;
+  }
+}

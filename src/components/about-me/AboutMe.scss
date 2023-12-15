@@ -2,6 +2,10 @@
 //   color: white;
 // }
 
+.bio-container {
+  margin: 40px 5px 5px;
+}
+
 .about-me {
   display: flex;
   justify-content: space-evenly;
@@ -10,13 +14,12 @@
 }
 
 .custom-accordion {
-  width: 75%; 
+  width: 75%;
+  margin: 20px;
 }
 
 .about-me img {
   width: 200px;
   margin: 5px auto;
   display: flex;
-
 }
-
